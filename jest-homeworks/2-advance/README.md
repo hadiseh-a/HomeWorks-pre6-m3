@@ -17,6 +17,6 @@ This section explains how to handle external dependencies and asynchronous funct
 ### Mocking External Dependencies (e.g., fetchUserData):
 
 1. **Identify the Function:** Locate the function that interacts with the external dependency (like `fetchUserData`).
-2. **Mock the Dependency:** Use Jest's `jest.mock` function to replace the actual dependency with a mock implementation. This mock can control the data returned by the dependency.
+2. **Mock the Dependency:** Use Jest's `jest.mock` function to replace the actual de pendency with a mock implementation. This mock can control the data returned by the dependency.
 3. **Create Mocked Data:** Define the data you want the mock to return when the function interacts with it.
 4. **Write Tests:** Create tests for the function using `expect` and matchers. Verify the function behaves as expected with the mocked data.
