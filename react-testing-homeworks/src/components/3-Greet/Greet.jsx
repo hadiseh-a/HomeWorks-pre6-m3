@@ -1,3 +1,3 @@
 export default function Greet({ name }) {
-  return <div>hello {name}</div>;
+  return <div role="text">hello {name}</div>;
 }
